@@ -1,0 +1,33 @@
+.bier-banner{
+    background-image: url("../image/bier banner.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    /*transform: scaleX(-1);*/
+}
+
+.bier-text{
+    width: 60%;
+    margin: 3% 20%;
+}
+
+.bier{
+    display: flex;
+    /*margin: 5% 7%;*/
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+
+/*.bier img{*/
+/*    margin-right: 3%;*/
+/*}*/
+
+.ons-bier-text{
+    width: 40vw;
+}

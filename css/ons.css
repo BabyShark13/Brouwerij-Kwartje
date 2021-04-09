@@ -1,0 +1,41 @@
+.ons-banner {
+    background-image: url("../image/over ons banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+}
+
+.team{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.brouwerij{
+    display: flex;
+    margin: 1% 10%;
+}
+
+.brouwerij img{
+    margin-right: 3%;
+}
+
+.history{
+    margin: 3% 10%;
+}
+
+.folder{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.folder img{
+    width: 20vw;
+    height: 20vh;
+}

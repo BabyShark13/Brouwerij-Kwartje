@@ -1,0 +1,54 @@
+@import "var.css";
+@import "nav.css";
+@import "index.css";
+@import "ons.css";
+@import "bier.css";
+@import "nieuws.css";
+@import "contact.css";
+@import "404.css";
+@import "footer.css";
+
+/*font*/
+@font-face {
+    src: url("../fonts/NexaBold.otf");
+    font-family: NexaBold;
+}
+
+@font-face {
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-family: Poppins;
+}
+
+@font-face {
+    src: url("../fonts/Poppins-Bold.ttf");
+    font-family: PoppinsBold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 25%;
+    height: 15%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'NexaBold', sans-serif;
+}
+
+p, a{
+    font-family: Poppins, sans-serif;
+
+}
+
+/*
+paren postion relevent lelement in met positon
+*/
+
+/*input:focus{*/
+
+/*}*/
+
+

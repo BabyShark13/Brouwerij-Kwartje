@@ -1,0 +1,167 @@
+/*header*/
+.banner{
+    background-image: url("../image/home banner.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    /*color: var(--blauw);*/
+}
+
+.text{
+    margin-left: 13%;
+}
+
+.text h1{
+    margin-bottom: 15px;
+}
+
+.btn-head{
+    color: #ffffff;
+    background-color: var(--blauw);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 26px;
+    text-decoration: none;
+    /*font-size: 15px;*/
+    font-weight: bold;
+}
+
+/*main*/
+.ons-bier{
+    display: flex;
+    margin: 5% 7%;
+}
+
+.ons-bier img{
+    margin-right: 5%;
+}
+
+.ons-bier p{
+   margin-bottom: 18px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--blauw);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+
+}
+
+.ad{
+    background-image: url("../image/bier.jpg");
+    position: relative;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+    color: white;
+}
+
+.layer{
+    background-color:rgba(233, 118, 12, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.positie{
+    display: flex;
+    margin: 2% 25%;
+}
+
+.positie img{
+    width: 10vw;
+    height: 18vh;
+    margin-right: 13%;
+}
+
+.sold{
+    width: 33vw;
+}
+
+.sold p{
+    margin-bottom: 4%;
+}
+
+.btn-sold{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--blauw);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 26px;
+    /*font-size: 15px;*/
+    font-weight: bold;
+    /*display: block !important;*/
+}
+
+.wij{
+    display: flex;
+    margin: 5% 7%;
+}
+
+.wij-text{
+    margin-right: 5%;
+    width: 100vw;
+}
+
+.wij-text p{
+    margin-bottom: 18px;
+}
+
+.wij img{
+    width: 100vw;
+    height: 25vh;
+}
+
+.offer{
+    text-align: center;
+}
+
+.offer img{
+    border-radius: 5%;
+}
+
+.nieuws{
+    background-color: var(--oranje);
+    width: 100%;
+    /*height: 10vh;*/
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 0;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 6%;
+}
+
+.nieuws input[type=email]{
+    border: #004358 2px solid;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.nieuws input[type=submit]{
+    background-color: #ffffff;
+    color: var(--blauw);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.nieuws input[type=submit]:hover{
+    background-color: var(--blauw);
+    color: #ffffff;
+}
