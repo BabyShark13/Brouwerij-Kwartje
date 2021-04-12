@@ -17,6 +17,7 @@
 
 .brouwerij{
     display: flex;
+    justify-content: center;
     margin: 1% 10%;
 }
 
@@ -24,12 +25,16 @@
     margin-right: 3%;
 }
 
+.brouwerij-text{
+    width: 50%;
+}
+
 .history{
     margin: 3% 10%;
 }
 
 .folder{
-    margin: 5% 0;
+    margin: 5%;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -38,4 +43,41 @@
 .folder img{
     width: 20vw;
     height: 20vh;
+}
+
+/* GRID IMAGES*/
+.image-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+    "a a b"
+    "c d b" ;
+    gap: 20px;
+    width: 72%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image-box img{
+    width: 100%;
+}
+.box1 {
+    grid-area: a;
+}
+.box2 {
+    grid-area: b;
+    background-size: contain;
+    height: 100%;
+}
+.box3 {
+    grid-area: c;
+
+}
+.box4 {
+    grid-area: d;
+}
+
+.main{
+    margin-bottom: 5%;
 }

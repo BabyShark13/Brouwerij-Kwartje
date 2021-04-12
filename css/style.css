@@ -15,6 +15,11 @@
 }
 
 @font-face {
+    src: url("../fonts/NexaLight.otf");
+    font-family: NexaLight;
+}
+
+@font-face {
     src: url("../fonts/Poppins-Regular.ttf");
     font-family: Poppins;
 }
@@ -31,24 +36,25 @@
 
 img{
     width: 25%;
-    height: 15%;
+    /*height: 15%;*/
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'NexaBold', sans-serif;
 }
 
-p, a{
-    font-family: Poppins, sans-serif;
+p, a, li{
+    font-family: 'Poppins', sans-serif;
 
+}
+
+input{
+    font-family: 'PoppinsBold', sans-serif;
 }
 
 /*
 paren postion relevent lelement in met positon
 */
 
-/*input:focus{*/
-
-/*}*/
 
 

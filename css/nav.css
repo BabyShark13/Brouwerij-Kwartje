@@ -2,8 +2,6 @@ nav{
     background-color: #0C0D10;
     width: 100%;
     overflow: hidden;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
 }
 
 nav ul{
@@ -12,10 +10,6 @@ nav ul{
 }
 
 ul li{
-    /*float: left;*/
-    /*text-align: center;*/
-    padding: 14px 16px;
-    /*text-decoration: none;*/
     font-size: 17px;
     list-style-type: none;
     display: flex;
@@ -29,6 +23,14 @@ ul li a{
 }
 
 ul li a img{
-    width: 5vw;
-    height: 7vh;
+    width: 6vw;
+    /*height: 6vh;*/
+}
+
+nav ul li:nth-child(1){
+    margin-right: 25%;
+}
+
+.winkelwagen{
+    width: 30px;
 }

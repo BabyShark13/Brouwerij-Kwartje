@@ -11,11 +11,11 @@
     /*color: var(--blauw);*/
 }
 
-.text{
+.text-home{
     margin-left: 13%;
 }
 
-.text h1{
+.text-home h1{
     margin-bottom: 15px;
 }
 
@@ -28,6 +28,10 @@
     text-decoration: none;
     /*font-size: 15px;*/
     font-weight: bold;
+}
+
+.btn-head:hover{
+    background-color: var(--oranje);
 }
 
 /*main*/
@@ -48,14 +52,19 @@
     text-decoration: none;
     color: #ffffff;
     background-color: var(--blauw);
-    border: none;
+    border: 2px solid #004358;
     border-radius: 5px;
     padding: 8px 14px;
+}
 
+.btn:hover{
+    color: var(--blauw);
+    background-color: #ffffff;
+    border: 2px solid #004358;
 }
 
 .ad{
-    background-image: url("../image/bier.jpg");
+    background-image: url("../image/home bier advetentie.jpg");
     position: relative;
     background-position: center;
     width: 100%;
@@ -95,12 +104,17 @@
     text-decoration: none;
     color: #ffffff;
     background-color: var(--blauw);
-    border: none;
+    border: 2px solid #004358;
     border-radius: 5px;
-    padding: 8px 26px;
+    padding: 6px 20px;
     /*font-size: 15px;*/
     font-weight: bold;
     /*display: block !important;*/
+}
+
+.btn-sold:hover{
+    color: var(--blauw);
+    background-color: #ffffff;
 }
 
 .wij{
@@ -128,18 +142,21 @@
 
 .offer img{
     border-radius: 5%;
+    width: 20vw;
+    height: 60vh;
+    margin-left: 25px;
 }
 
 .nieuws{
     background-color: var(--oranje);
     width: 100%;
-    /*height: 10vh;*/
     display: flex;
     justify-content: space-evenly;
     padding: 3% 0;
     font-size: 25px;
     color: #ffffff;
-    margin-top: 6%;
+    margin-top: 5%;
+    align-items: center;
 }
 
 .nieuws input[type=email]{
@@ -154,7 +171,7 @@
     background-color: #ffffff;
     color: var(--blauw);
     font-weight: bold;
-    border: none;
+    border: 2px solid #004358;
     border-radius: 5px;
     padding: 10px;
     margin: 8px 0;
@@ -165,3 +182,4 @@
     background-color: var(--blauw);
     color: #ffffff;
 }
+
